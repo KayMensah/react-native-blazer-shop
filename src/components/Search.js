@@ -40,7 +40,7 @@ const Search = () => {
         </View>
         <View style={{ flex: 5 }}>
           <Text style={{ fontSize: 22, fontWeight: "bold" }}>
-            Women's Jacket
+            Women's Jacket 1
           </Text>
         </View>
         <View style={{ flex: 5 }}>

@@ -14,7 +14,7 @@ import blueblazer from "../../assets/img/blueblazer.png";
 import { MaterialCommunityIcons, MaterialIcons } from "@expo/vector-icons";
 import { Rating } from "react-native-ratings";
 
-const Cart = () => {
+const Cart = ({ navigation }) => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <StatusBar barStyle="dark-content" />
@@ -255,6 +255,7 @@ const Cart = () => {
                 backgroundColor: "white",
                 paddingBottom: 12,
               }}
+              onPress={() => navigation.navigate("Search")}
             >
               <Text
                 style={{
